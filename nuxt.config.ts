@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/eslint',
-    '@nuxt/fonts',
+    '@nuxt/fonts'
   ],
   css: ['~/assets/css/main.css'],
   vite: {
@@ -17,5 +17,5 @@ export default defineNuxtConfig({
     config: {
       standalone: false
     }
-  },
+  }
 })
