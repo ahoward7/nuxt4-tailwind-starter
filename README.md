@@ -1,7 +1,7 @@
 
 # Nuxt 4 + Tailwind Starter
 
-This is a minimal yet modern Nuxt 4 starter template with Tailwind CSS preconfigured. It provides a solid foundation for building fast, beautiful, and scalable web applications.
+This is a minimal Nuxt 4 starter template with Tailwind CSS preconfigured to make it easy for you to get started with your own application.
 
 ## Features
 
