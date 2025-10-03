@@ -96,14 +96,6 @@
             </div>
           </div>
           <div>
-            <NuxtLink to="https://nuxt.com/modules/fonts" target="_blank" class="font-bold text-blue-500 hover:underline">
-              @nuxt/fonts
-            </NuxtLink>
-            <div class="text-black text-base font-normal">
-              Efficiently load and manage web fonts in your Nuxt app.
-            </div>
-          </div>
-          <div>
             <NuxtLink to="https://nuxt.com/modules/test-utils" target="_blank" class="font-bold text-blue-500 hover:underline">
               @nuxt/test-utils
             </NuxtLink>
@@ -153,11 +145,11 @@ const containerClass = computed(() => [
   'h-screen flex flex-col justify-center items-center pb-[10vh]',
   isDark.value
     ? 'bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-white'
-    : 'bg-gradient-to-br from-green-100 via-purple-200 to-blue-300 text-black'
+    : 'bg-gradient-to-br from-green-50 via-purple-50 to-blue-50 text-black'
 ])
 
 const titleClass = computed(() => [
-  'flex gap-4 text-6xl mb-12 font-extrabold tracking-tight drop-shadow-lg',
+  'flex gap-4 text-5xl my-8 font-bold tracking-tight drop-shadow-lg',
   isDark.value ? 'text-white' : 'text-black'
 ])
 
